@@ -1,0 +1,36 @@
+header
+
+section 1
+
+div with id `sect-1`
+styling with tailwind css
+
+has level 1 heading `Generators`
+
+has a paragraph below the heading `Haikei is built around generators. Each generator has a unique set of properties and features to help you discover and create unlimited design assets.`
+
+div has a padding of 10.
+the paragraph has a margin bottom of 20
+All items are centered.
+
+end of div with ide `sect-1`
+
+section2 
+
+div with id `sect-2`
+
+has two elements.
+first element is a div that has an image.
+second element is also a div with the following inner elements:
+  i. heading `Blob`
+  ii. paragraph ` A classic! Originating with Blobmaker, this generator allows you to generate cool organic svg shapes within your chosen contrast and complexity parameters.`
+  iii. <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+    Start designing
+    <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+  </svg>
+</button>
+
+the two divs occupy 50% of the width and the image covers the whole of its designated width. The image url is `https://placehold.co/600x400`
+The parent div covers 75% width
+The text in i and ii is aligned at the start.
