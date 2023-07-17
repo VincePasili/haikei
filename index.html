@@ -18,8 +18,9 @@
 
     <body
         class="light-theme">
+        <div>
         <!-- Nav component start -->
-        <nav class="dark:bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+        <nav class="w-full z-20  top-0 left-0 border-b border-gray-200 dark:border-gray-600">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="./index.html" class="flex items-center">
                     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Haikei</span>
@@ -54,26 +55,29 @@
                         </li>
                     </ul>
                 </div>
-                <button class="self-end justify-end id=" theme-toggle">Toggle theme</button>
+                <button class="self-end justify-end" id="theme-toggle">Toggle theme</button>
             </div>
         </nav>
         <!-- revise component 1 -->
-        <div id="section-1" class="flex flex-col items-center mt-10 md:mt-20 mb-20 dark:bg-black dark:text-white text-gray-700">
-            <h1 class="mb-10 text-center">Generate unique SVG design assets</h1>
-            <p class="mb-10 text-center">Haikei is a web app to generate stunning visual content – ready to use with your design tools and workflow.</p>
-            <button class="mb-10 bg-purple-400 hover:bg-purple-800 text-white rounded-full px-5 py-2">Start designing for free</button>
-            <p class="text-center">Free, no signups, no credit cards.</p>
+        <div id="section-1" class="flex flex-col items-center mt-10 md:mt-20 mb-20 text-gray-700">
+            <h1 class="mb-10 text-center text-6xl font-extrabold " >Generate unique SVG <br/> design assets</h1>
+            <p class="mb-10 text-center text-3xl font-semibold">Haikei is a web app to generate stunning visual content – ready to use with<br/> your design tools and workflow.</p>
+            <button class="mb-10 bg-purple-400 hover:bg-purple-800 text-white rounded-full font-semibold text-2xl px-5 py-2">Start designing for free</button>
+            <p class="text-center text-xl">Free, no signups, no credit cards.</p>
         </div>
         <!-- end of revision -->
         <!-- section 2 start -->
-        <div id="section-2" class="mt-10 mb-20 flex justify-center">
-            <video class="md:w-3/4 w-fit rounded-3xl h-[7200px]" controls>
-                <source src="https://player.vimeo.com/external/537042948.sd.mp4?s=3f7181097641370b67dee6554e4e5a3014f86438&profile_id=164&oauth2_token_id=57447761" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
+<div id="section-2" class="mt-10 mb-20 flex w-4/5 justify-center relative overflow-hidden">
+    <video class="min-w-full min-h-full w-auto h-auto rounded-3xl" controls>
+        <source src="https://player.vimeo.com/external/537042948.sd.mp4?s=3f7181097641370b67dee6554e4e5a3014f86438&profile_id=164&oauth2_token_id=57447761" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+
 
         <!-- section 2 end -->
+    
         <!-- Third section here -->
         <div id="section-3" class="dark:text-white text-gray-700 mt-10 mb-20 md:w-3/4 w-full mx-auto">
             <h1 class="mb-20 text-center">Discover + create unlimited visuals for your designs</h1>
@@ -115,6 +119,7 @@
             <div id="tabContent4" class="tab-content hidden">Content for Social Media</div>
         </div>
         <!-- end of tab section -->
+        <div class="flex w-3/4">
         <!-- The grid component -->
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div class="grid gap-4">
@@ -164,6 +169,8 @@
             <button class="mb-10 bg-purple-400 hover:bg-purple-800 text-white rounded-full px-5 py-2">Start designing for free</button>
         </div>
         <!-- End of the mansory grid -->
+        </div>
+        </div>
         <!-- Newsletter component -->
 
         <div id="newsletter-banner" tabindex="-1" class="z-50 flex justify-between w-full p-4 border-b border-gray-200 bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
